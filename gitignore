@@ -1,0 +1,56 @@
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Dependency directories
+node_modules/
+venv/
+.env/
+__pycache__/
+
+# Compiled binaries and cache files
+*.o
+*.out
+*.class
+*.pyc
+*.pyo
+*.swp
+
+# Log and temporary files
+*.log
+*.tmp
+
+# IDE and Editor-specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Git-related files
+.gitignore
+
+# Build and distribution directories
+dist/
+build/
+coverage/
+
+# Environment-specific files
+.env
+.secret
+config.json
+docker-compose.override.yml
+
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
